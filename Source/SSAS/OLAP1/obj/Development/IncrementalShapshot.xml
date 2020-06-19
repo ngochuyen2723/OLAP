@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>OLAP1</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>JAyVxr0NpzdTiIWUcLJKk7m5Phw=11/3/2019 12:43:57 PM11/3/2019 12:43:57 PM</TimeStamp>
+        <ID>
+          <String>OLAP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>pHlHMWdFngJIJWgnM2aqbqzAKys=11/7/2019 5:52:04 PM11/3/2019 12:44:16 PM</TimeStamp>
+        <ID>
+          <String>OLAP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1PMOyiz4UHDlKlKMgXc97l42Krg=12/16/2019 3:43:34 PM11/3/2019 12:44:36 PM</TimeStamp>
+        <ID>
+          <String>Order Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Dd/QtkIQ4FNcLeWcVXpw6MFGrAc=11/10/2019 5:47:20 PM11/3/2019 12:44:36 PM</TimeStamp>
+        <ID>
+          <String>Ship Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>f0OAxplTL4jkMA5Kx/e2L0PGU+w=11/3/2019 12:45:47 PM11/3/2019 12:44:36 PM</TimeStamp>
+        <ID>
+          <String>Market</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wAkhFz7I/oC9CuZoXE3ohKgiZI0=11/3/2019 12:45:47 PM11/3/2019 12:44:36 PM</TimeStamp>
+        <ID>
+          <String>Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DwBl1LCTNGtw825A+6aTTVpzwMs=11/24/2019 10:15:35 AM11/3/2019 12:44:36 PM</TimeStamp>
+        <ID>
+          <String>Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MQvuOKR7mRuY1NCOmjc9ndTXGvU=11/7/2019 6:14:51 PM11/3/2019 12:44:36 PM</TimeStamp>
+        <ID>
+          <String>Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5HJKuEzLUkfFe3FVAS9/en1ffWw=11/10/2019 2:18:36 PM11/10/2019 2:18:36 PM</TimeStamp>
+        <ID>
+          <String>Invoice</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>HvRCzSFoJr+82/KSEATdeotqmG0=12/22/2019 3:31:36 PM12/6/2019 12:13:51 AMF5Gy/Ob9M5/8LcNy3L9R5aq21Xw=12/6/2019 10:59:07 PM11/3/2019 12:44:36 PM</TimeStamp>
+        <ID>
+          <String>OLAP</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>pcWkcinuE4Irg9XtJj0LNS+mN3k=11/3/2019 12:41:31 PM11/3/2019 12:41:29 PM</TimeStamp>
+      <ID>
+        <String>OLAP1</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-12-22T08:31:39.54Z</LastDeployed>
+</DeploymentSnapshot>
